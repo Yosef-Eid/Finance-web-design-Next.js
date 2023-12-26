@@ -19,7 +19,6 @@ function Testimonials() {
         }
     }
 
-
     return ( 
         <div className={style.testimonials}>
 
