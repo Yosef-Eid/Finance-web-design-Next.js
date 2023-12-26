@@ -1,0 +1,108 @@
+.features{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 95px;
+        
+    /* text title */
+    .text{
+        width: 70%;
+        text-align: start;
+    }
+        .text h1{
+            color: var(--light-text-color, #FFF);
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 57px; 
+            letter-spacing: 0.2px;
+        }
+
+        .text p{
+            margin-top: 10px;
+            color: var(--light-text-color, #FFF);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+        }
+
+        /* cards */
+        .cards{
+            width: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 45px;
+        }
+
+        .cards div{
+            width: 328px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 2px;
+            border: 1px solid #E1E1E1;
+            background: var(--light-gray-1, #FAFAFA);
+            gap: 15px;
+        }
+
+
+        /* buttons */
+        #button{
+            width: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 50px;
+     
+            .but{
+             border: 0;
+             color: var(--light-text-color, #FFF);
+             font-size: 14px;
+             font-style: normal;
+             font-weight: 700;
+             line-height: 22px; /* 157.143% */
+             letter-spacing: 0.2px;
+             padding: 15px 36px;
+             gap: 10px;
+             border-radius: 37px;
+             cursor: pointer;
+             
+         }
+         #but1{
+            width: 180px;
+             background: var(--primary-color, #23A6F0);
+             transition: all .2s;
+         }
+         
+         #but1:hover{
+             background-color: #23a5f0e0;
+             box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.272);
+         }
+     
+         #but2{
+            width: 170px;
+             background-color: #23a5f000;
+             border: 1px solid var(--light-text-color, #FFF);
+             transition: all .2s;
+         }
+     
+     
+         #but2:hover{
+             background-color: #23a5f046;
+         }
+     }
+     
+
+
+}
